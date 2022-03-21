@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Api", "src\FastTunnel.Api\FastTunnel.Api.csproj", "{C8E5B02B-C053-4577-A356-196CC1C17915}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Client", "src\FastTunnel.Client\FastTunnel.Client.csproj", "{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C8E5B02B-C053-4577-A356-196CC1C17915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8E5B02B-C053-4577-A356-196CC1C17915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8E5B02B-C053-4577-A356-196CC1C17915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
