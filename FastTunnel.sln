@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Api", "src\FastTunnel.Api\FastTunnel.Api.csproj", "{C8E5B02B-C053-4577-A356-196CC1C17915}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Client", "src\FastTunnel.Client\FastTunnel.Client.csproj", "{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Core", "src\FastTunnel.Core\FastTunnel.Core.csproj", "{A52A15FC-1BCB-4D70-A32C-564D51BF41C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Server", "src\FastTunnel.Server\FastTunnel.Server.csproj", "{6974B37C-B204-4B53-823A-357CB37C4109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Api", "src\FastTunnel.Api\FastTunnel.Api.csproj", "{5B7D2E53-74A2-4855-ABB1-83B900B64DCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8E5B02B-C053-4577-A356-196CC1C17915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8E5B02B-C053-4577-A356-196CC1C17915}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8E5B02B-C053-4577-A356-196CC1C17915}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8E5B02B-C053-4577-A356-196CC1C17915}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D4C21E6-B10A-43C6-A2C3-F06372A8F375}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{6974B37C-B204-4B53-823A-357CB37C4109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6974B37C-B204-4B53-823A-357CB37C4109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6974B37C-B204-4B53-823A-357CB37C4109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7D2E53-74A2-4855-ABB1-83B900B64DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7D2E53-74A2-4855-ABB1-83B900B64DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7D2E53-74A2-4855-ABB1-83B900B64DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7D2E53-74A2-4855-ABB1-83B900B64DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
