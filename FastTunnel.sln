@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Client", "src\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Core", "src\FastTunnel.Core\FastTunnel.Core.csproj", "{A52A15FC-1BCB-4D70-A32C-564D51BF41C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastTunnel.Server", "src\FastTunnel.Server\FastTunnel.Server.csproj", "{6974B37C-B204-4B53-823A-357CB37C4109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A52A15FC-1BCB-4D70-A32C-564D51BF41C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A52A15FC-1BCB-4D70-A32C-564D51BF41C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A52A15FC-1BCB-4D70-A32C-564D51BF41C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6974B37C-B204-4B53-823A-357CB37C4109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6974B37C-B204-4B53-823A-357CB37C4109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6974B37C-B204-4B53-823A-357CB37C4109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6974B37C-B204-4B53-823A-357CB37C4109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
