@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Hosting.WindowsServices;
 
-
+//step 1:add UseWindowsService()
 var webApplicationOptions = new WebApplicationOptions()
 
 {
@@ -13,7 +13,9 @@ var webApplicationOptions = new WebApplicationOptions()
 var builder = WebApplication.CreateBuilder(webApplicationOptions);
 
 //come from:https://stackoverflow.com/questions/70571849/host-asp-net-6-in-a-windows-service
-builder.Host.UseWindowsService();
+builder.Host.UseWindowsService(); //for windows Service
+builder.Host.UseSystemd();  //for Linux Service
+
 
 
 
