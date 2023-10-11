@@ -1,5 +1,9 @@
 
 
+local:F:\developer_FastTunnel
+remote:https://github.com/iaspnetcore/FastTunnel
+offcial website:https://github.com/FastTunnel
+
 ## Step 1:FastTunnel.Core:ClassLibrary project,compile ok
 
 ## Step 2:FastTunnel.Api:ClassLibrary project compile ok,call FastTunnel.Core
